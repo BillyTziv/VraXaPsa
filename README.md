@@ -1,5 +1,7 @@
 # VraXaPsa
 VraXaPsa is a 2D tetris like game. VraXaPsa game was developed for Computer Graphics and Interactive Systems, an undergraduate course in Computer Sience and Englneering Department of Ioannina, University of Ioannina and was finally reviewed by Ioannis Fudos.
+
+Video link: https://youtu.be/5GzoTVR9vcQ
 ![Alt text](https://github.com/BillyTziv/VraXaPsa/blob/master/images/vraxapsa.png "VraXaPsa")
 
 #Concept
