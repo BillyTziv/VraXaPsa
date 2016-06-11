@@ -1,5 +1,6 @@
 # VraXaPsa
 VraXaPsa is a 2D tetris like game. VraXaPsa game was developed for Computer Graphics and Interactive Systems, an undergraduate course in Computer Sience and Englneering Department of Ioannina, University of Ioannina and was finally reviewed by Ioannis Fudos.
+![Alt text](https://github.com/BillyTziv/VraXaPsa/blob/master/images/vraxapsa.png "VraXaPsa")
 
 #Concept
 The concept is the same, as the one in a simple tetris game but instead of various cube shapes, the possible objects that may be dropping from the top are rocks, scissors, papers, bombs and magic cubes. Some of the objects win/'eat' others. For example, a rock wins all scissors and a paper wins all rocks. Bombs win everything and magic cubes can be win other by bombs.
