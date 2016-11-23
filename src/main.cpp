@@ -23,7 +23,7 @@
 #include <time.h>
 
 /* Music */
-#include <irrKlang.h>
+//#include <irrKlang.h>
 
 /* MyLib */
 #include <queue>
@@ -222,8 +222,8 @@ int main(int argc, char* argv[]) {
 	library was taken from the link below
 	from http://www.ambiera.com/irrklang/
 	****************************************/
-	irrklang::ISoundEngine* engine;
-	engine = irrklang::createIrrKlangDevice();
+	//irrklang::ISoundEngine* engine;
+	//engine = irrklang::createIrrKlangDevice();
 
 	if( argc != 2 ) {
 		cerr << "You forgot the number of players!\neg. ./a.out 2 for two players" << endl;
@@ -239,9 +239,9 @@ int main(int argc, char* argv[]) {
 		glutCreateWindow ("Rock-Paper-Scissors");
 
 		/* Play the sound in a loop */
-		if (!engine)
-			cout << "Could not startup engine" << endl;
-		engine->play2D("sound/classicTetris.wav", true);
+		//if (!engine)
+		//	cout << "Could not startup engine" << endl;
+		//engine->play2D("sound/classicTetris.wav", true);
 	
 		/* Load the images into the program */
 		loadImage();
@@ -260,10 +260,10 @@ int main(int argc, char* argv[]) {
 		glutCreateWindow ("Rock-Paper-Scissors");
 
 		/* Play the sound in a loop */
-		if (!engine)
+		/*if (!engine)
 			cout << "Could not startup engine" << endl;
 		engine->play2D("sound/classicTetris.wav", true);
-	
+		*/
 		/* Load the images into the program */
 		loadImage();
 

@@ -408,7 +408,7 @@ void eat(int r, int c) {
 		SCORE += (10*countEaten)+(countEaten*countEaten);
 
 		// sound for x5 and x10 
-		if( ( countEaten >= 5 ) && ( countEaten < 10) ) {
+		/*if( ( countEaten >= 5 ) && ( countEaten < 10) ) {
 			irrklang::ISoundEngine* engine;
 			engine = irrklang::createIrrKlangDevice();
 			if (!engine)
@@ -420,7 +420,7 @@ void eat(int r, int c) {
 			if (!engine)
 				cout << "Could not startup engine" << endl;
 			engine->play2D("sound/HolyShit.wav", false);
-		}
+		}*/
 }
 
 void eat2(int r, int c) {
@@ -476,7 +476,7 @@ void eat2(int r, int c) {
 		SCORE2 += (10*countEaten2)+(countEaten2*countEaten2);
 
 		// sound for x5 and x10 
-		if( ( countEaten2 >= 5 ) && ( countEaten2 < 10) ) {
+		/*if( ( countEaten2 >= 5 ) && ( countEaten2 < 10) ) {
 			irrklang::ISoundEngine* engine;
 			engine = irrklang::createIrrKlangDevice();
 			if (!engine)
@@ -488,7 +488,7 @@ void eat2(int r, int c) {
 			if (!engine)
 				cout << "Could not startup engine" << endl;
 			engine->play2D("sound/HolyShit.wav", false);
-		}
+		}*/
 }
 
 
