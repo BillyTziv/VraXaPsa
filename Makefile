@@ -3,6 +3,9 @@
 
 CPP = g++
 
+# Music library
+#OPTS =  -I"include" -L"/usr/lib" bin/linux-gcc/libIrrKlang.so -pthread
+
 # OpenGL libraries
 OPENGL = -lglut -lGLU -lGL
 
